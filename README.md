@@ -1,12 +1,17 @@
-# 🌀 Spiral template
+# Venus
 
-A simple Streamlit app that draws a spiral. 
-
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://basic-template.streamlit.app/)
 
 ### How to run it on your own machine
 
-1. Install the requirements
+1. Create env
+- python install virtualenv
+- python -m virtualenv env-vulanami
+
+
+1. Activate Env
+.\env-vulanami\Scripts\activate
+
+2. Install the requirements
 
    ```
    $ pip install -r requirements.txt
@@ -17,3 +22,9 @@ A simple Streamlit app that draws a spiral.
    ```
    $ streamlit run streamlit_app.py
    ```
+
+### save packages to the requirements
+
+pip freeze > requirements.txt
+
+### normal commit and push to github
