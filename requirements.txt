@@ -1,8 +1,7 @@
 altair
 pandas
 streamlit
-pyaudio
-wave
-retry
-Session
-IPython
+retry_requests
+VulavulaClient
+VulavulaError
+vulavula
